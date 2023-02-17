@@ -24,6 +24,8 @@ const weather = (place) => {
       sunrise.innerHTML = response.sunrise;
       sunset.innerHTML = response.sunset;
       temp.innerHTML = response.temp;
+      temp2.innerHTML = response.temp;
+
       wind_degrees.innerHTML = response.wind_degrees;
       wind_speed.innerHTML = response.wind_speed;
     })
@@ -39,3 +41,5 @@ document.getElementById("submit").addEventListener("click", (e) => {
 });
 
 console.log(weather(place));
+
+function kolkata() {}
